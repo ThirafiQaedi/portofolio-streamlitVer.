@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Path foto profil (simpan gambar dari CV ke assets/profile_photo.png)
-PHOTO_PATH = Path("asset/profile_photo.png")
+PHOTO_PATH = Path("Asset/profile_photo.png")
 
 # ---------------------------------------------------------
 # 2. SIDEBAR - NAVIGASI & PROFIL SINGKAT
@@ -22,7 +22,7 @@ with st.sidebar:
         st.image(str(PHOTO_PATH), width=150)
     else:
         st.image("https://via.placeholder.com/150?text=MTQS", width=150)
-        st.caption("⚠️ Letakkan foto profil di `assets/profile_photo.png`")
+        st.caption("⚠️ foto profil tidak ditemukan")
 
     st.title("Muhamad Thirafi Qaedi Setiawan")
     st.caption("Fresh Graduate Informatics Engineering | AI, Data & Software Enthusiast")
@@ -44,7 +44,7 @@ with st.sidebar:
     st.markdown("📍 **Lokasi:** Jakarta, Indonesia")
     st.markdown("📞 **Telepon:** 08121802867")
     st.markdown("✉️ **Email:** m.thirafi.setiawan@gmail.com")
-    st.markdown("[🔗 LinkedIn](https://linkedin.com)")  # Ganti dengan URL LinkedIn asli Anda
+    st.markdown("[🔗 LinkedIn](https://linkedin.com)")  
 
 # ---------------------------------------------------------
 # 3. HALAMAN: TENTANG SAYA
