@@ -44,7 +44,7 @@ with st.sidebar:
     st.markdown("📍 **Lokasi:** Jakarta, Indonesia")
     st.markdown("📞 **Telepon:** 08121802867")
     st.markdown("✉️ **Email:** m.thirafi.setiawan@gmail.com")
-    st.markdown("[🔗 LinkedIn](https://linkedin.com)")  
+    st.markdown("[🔗 LinkedIn](https://www.linkedin.com/in/muhamad-thirafi-qaedi-setiawan-599b91269/)")  
 
 # ---------------------------------------------------------
 # 3. HALAMAN: TENTANG SAYA
